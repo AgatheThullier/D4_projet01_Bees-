@@ -99,10 +99,15 @@ margin-top: 20px;
   padding-top: 60px;
 }
 
+.video-container video{
+  max-width: 500px;
+  width: 100%
+}
+
 .expli-section-content{
   margin-left: 40px;
 padding-left: 30px;
-background-color: rgba(255, 255, 255, 0.6 );
+background-color: rgba(255, 255, 255, 0.7 );
 border-radius: 64px 64px 64px 64px;
 -moz-border-radius: 64px 64px 64px 64px;
 -webkit-border-radius: 64px 64px 64px 64px;
