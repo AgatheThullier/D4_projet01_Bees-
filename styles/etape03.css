@@ -1,40 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Days+One|Maven+Pro|Varela+Round');
 body {
-background: radial-gradient(#5AC624  ,#0C734A   );
-color: #FFFFFF;
+background-image: url('images/fond_herbes_03.png');
+background-attachment: fixed;
 }
+
 
 
 h1 {
 text-align: center;
   font-family: 'Days one';
-  color:  #FFFFFF;
+}
+
+h1 a{
+ text-decoration: none;
+  color:  #FAE141;
 }
 
 p {
   font-family: 'Maven Pro';
   font-size: 15px;
+  color: #FC8D00;
+  font-weight: bold;
 }
 
 
 h2 {
 font-family: 'Days one';
+color: #FC8D00;
 }
+
+
 
  h3 {
   text-align: center;
   font-size: 17px;
-  color:#fccc03;
+  color: #FC8D00   ;
   width: 110px;
   height: 30px;
 font-family: 'Maven Pro';
 border-radius: 100px 100px 100px 100px;
 -moz-border-radius: 100px 100px 100px 100px;
 -webkit-border-radius: 100px 100px 100px 100px;
-border: 2px solid #ffffff;
+border: 2px solid #FBEA6B;
 padding-top: 10px;
 }
-
 
 
 .expli-section-content{
@@ -49,58 +58,73 @@ margin: 20px;
 width: 600px;
 margin-left: auto;
 margin-right: auto;
-background-color: rgba(255, 255, 255, 0.4);
+/*background-color: rgba(252, 141, 0, 0.4);
 border-radius: 64px 64px 64px 64px;
 -moz-border-radius: 64px 64px 64px 64px;
 -webkit-border-radius: 64px 64px 64px 64px;
 border: 0px solid rgba(255, 255, 255, 0.2);
+*/
 }
 
 .header-navigation a{
-  color: #FFFFFF;
+  color: #FCAB14;
   font-family: 'Maven Pro';
   padding: 1em;
   text-decoration: none;
 font-size: 20px;
 
+
 }
 
 .header-navigation a:hover{
    color: #ffed00  ;
+  text-decoration: underline;
 }
 
 
 .header-navigation {
-  height: 60px;
-  text-align: center;
-  padding-left: 10px;
-  }
-
+height: 60px;
+text-align: center;
+padding-left: 0px;
+}
 
 .étape {
 display: inline-block;
 margin-top: 20px;
+flex-wrap: wrap;
+
 }
 
 
-.next img {
+.arrow img {
   width: 60px;
+    display: inline-block;
+justify-content: space-around;
+
 }
 
 .video-container{
   margin-right: 40px;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .expli-section-content{
   margin-left: 40px;
+padding-left: 30px;
+background-color: rgba(255, 255, 255, 0.6 );
+border-radius: 64px 64px 64px 64px;
+-moz-border-radius: 64px 64px 64px 64px;
+-webkit-border-radius: 64px 64px 64px 64px;
+border: 0px solid rgba(255, 255, 255, 0.2);
+margin-bottom: 100px;
 
 }
 
 section {
 display: flex;
 justify-content: center;
-margin-left: 80px;
+margin-left: 20px;
 margin-top: 80px;
 flex-wrap: wrap;
+
 }
