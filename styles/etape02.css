@@ -2,7 +2,7 @@
 body {
 background-image: url('images/fond_herbes_02.png');
 background-attachment: fixed;
-cursor: url("images/Bee.png"), pointer;
+cursor: url("images/bee-cursor.png"), pointer;
 }
 
 
